@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2WH-ZG-oSg">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Grizzly-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="31" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbf-u0-Kbu">
+                                <rect key="frame" x="40" y="159" width="313" height="510"/>
+                                <string key="text">The grizzly bear is a kind of brown bear. Many people in North America use the common name “grizzly bear” to refer to the smaller and lighter-colored bear that occurs in interior areas and the term “brown bear” to refer to the larger and typically darker-colored bear in coastal areas. However, most of these bears are now considered the same subspecies.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="Sbf-u0-Kbu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="G9C-Z4-y7w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Sbf-u0-Kbu" secondAttribute="bottom" constant="100" id="GXT-IN-47M"/>
+                            <constraint firstItem="Sbf-u0-Kbu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="lLj-W8-2UC"/>
+                            <constraint firstAttribute="trailing" secondItem="Sbf-u0-Kbu" secondAttribute="trailing" constant="40" id="r0y-M6-mTq"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Grizzly" id="wyP-BZ-QXm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1156.4885496183206" y="543.66197183098598"/>
+        </scene>
+        <!--Panda-->
+        <scene sceneID="cNc-HT-72N">
+            <objects>
+                <viewController id="zYY-2X-AaG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tyl-Vp-oem">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="31" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBf-r6-Kb6">
+                                <rect key="frame" x="40" y="159" width="313" height="510"/>
+                                <string key="text">Pandas eat fast, they eat a lot, and they spend about 12 hours a day doing it. The reason: They digest only about a fifth of what they eat. Overall, bamboo is not very nutritious. To stay healthy, they have to eat a lot—up to 15 percent of their body weight in 12 hours—so they eat fast. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ND8-lV-2nY"/>
+                        <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ND8-lV-2nY" firstAttribute="trailing" secondItem="sBf-r6-Kb6" secondAttribute="trailing" constant="40" id="8so-en-jgl"/>
+                            <constraint firstItem="sBf-r6-Kb6" firstAttribute="leading" secondItem="ND8-lV-2nY" secondAttribute="leading" constant="40" id="Kz5-Uk-m1A"/>
+                            <constraint firstItem="ND8-lV-2nY" firstAttribute="bottom" secondItem="sBf-r6-Kb6" secondAttribute="bottom" constant="100" id="ZnC-EZ-Vgl"/>
+                            <constraint firstItem="sBf-r6-Kb6" firstAttribute="top" secondItem="ND8-lV-2nY" secondAttribute="top" constant="100" id="hpa-eA-7Fb"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Panda" id="4Hu-CD-mrh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rCV-SY-jMr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-408" y="544"/>
+        </scene>
+        <!--Ice bear-->
+        <scene sceneID="MWV-c3-zs2">
+            <objects>
+                <viewController id="EQg-kE-pvF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fql-tM-3Jd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="31" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igL-i3-Z6z">
+                                <rect key="frame" x="40" y="159" width="313" height="522"/>
+                                <string key="text">The polar bear is white- or yellowish-furred with black skin and a thick layer of fat. It is more slender than the brown bear, with a narrower skull, longer neck and lower shoulder hump. Its teeth are sharper and more adapted to cutting meat. The paws are large and allow the bear to walk on ice and paddle in the water.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nX4-AZ-spg"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstItem="nX4-AZ-spg" firstAttribute="trailing" secondItem="igL-i3-Z6z" secondAttribute="trailing" constant="40" id="AxK-TC-R3Q"/>
+                            <constraint firstItem="nX4-AZ-spg" firstAttribute="bottom" secondItem="igL-i3-Z6z" secondAttribute="bottom" constant="88" id="hE4-FC-v2t"/>
+                            <constraint firstItem="igL-i3-Z6z" firstAttribute="top" secondItem="nX4-AZ-spg" secondAttribute="top" constant="100" id="jQZ-ii-Xqm"/>
+                            <constraint firstItem="igL-i3-Z6z" firstAttribute="leading" secondItem="nX4-AZ-spg" secondAttribute="leading" constant="40" id="scH-JC-vll"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Ice bear" id="OeG-Om-ozg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0p9-ot-FF4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="346" y="544"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="EUH-VB-I7f">
+            <objects>
+                <tabBarController id="2WH-ZG-oSg" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gor-L2-4aN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="EQg-kE-pvF" kind="relationship" relationship="viewControllers" id="mnl-tP-rcI"/>
+                        <segue destination="zYY-2X-AaG" kind="relationship" relationship="viewControllers" id="aua-CJ-k0k"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="9O0-Ds-S3R"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="znD-ns-1M3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-175" y="-363"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
